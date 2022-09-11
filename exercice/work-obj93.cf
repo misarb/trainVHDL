@@ -1,0 +1,11 @@
+v 4
+file . "add_1bit_tb.vhdl" "9fd5d6f126e9eba3a3f9a2b5445e4b3b451c9039" "20220911175539.541":
+  entity add_1bit_tb at 1( 0) + 0 on 19;
+  architecture behaviour of add_1bit_tb at 7( 79) + 0 on 20;
+  configuration add_1bit_conf at 69( 1384) + 0 on 21;
+file . "xor3.vhdl" "41e5aecb79f3cf2cda70ae6435f1b6c1e1c2630e" "20220911163344.244":
+  entity xor3 at 1( 0) + 0 on 15;
+  architecture sim of xor3 at 15( 194) + 0 on 16;
+file . "add_1bit.vhdl" "d75332647235cd7e81cf4c883ff8013701508f1f" "20220911171444.913":
+  entity add_1bit at 1( 0) + 0 on 17;
+  architecture addarch of add_1bit at 12( 161) + 0 on 18;
