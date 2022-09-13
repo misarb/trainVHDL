@@ -1,0 +1,8 @@
+v 4
+file . "basculeD.vhdl" "e80fcf8e9ff734e11544897c5886303d2bc99ca4" "20220913162913.837":
+  entity basculed at 1( 0) + 0 on 69;
+  architecture archd of basculed at 13( 234) + 0 on 70;
+file . "basculeD_tb.vhdl" "8e45944070e323393583257a9b3bc8490d03e654" "20220913163600.247":
+  entity basculed_tb at 1( 0) + 0 on 80;
+  architecture test of basculed_tb at 7( 109) + 0 on 81;
+  configuration test_conf at 52( 1058) + 0 on 82;
