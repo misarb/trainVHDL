@@ -1,0 +1,27 @@
+$date
+  Tue Sep 13 19:00:36 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module mux $end
+$var reg 1 ! in1 $end
+$var reg 1 " in2 $end
+$var reg 1 # selin $end
+$var reg 1 $ q $end
+$upscope $end
+$enddefinitions $end
+#0
+U!
+U"
+U#
+U$
