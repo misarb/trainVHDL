@@ -20,21 +20,18 @@ END exCircuit;
 
 ARCHITECTURE arch OF exCircuit IS
 BEGIN
-    mux_proc : PROCESS (sel_b)
+    mux_proc : PROCESS (clk)
     BEGIN
         IF sel_b = '0' THEN
             mux_out <= c;
         ELSIF sel_b = '1' THEN
             mux_out <= d;
         END IF;
-    END PROCESS mux_proc;
-
-    bascul_proc : PROCESS (clk)
-    BEGIN
         IF rising_edge(clk) THEN
             D1 <= mux_out;
             D2 <= Q1;
             Q2 <= D2;
         END IF;
-    END PROCESS bascul_proc;
+    END PROCESS mux_proc;
+
 END arch;

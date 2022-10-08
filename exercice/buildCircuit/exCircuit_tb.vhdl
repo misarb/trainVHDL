@@ -39,13 +39,15 @@ BEGIN
     );
     mux_proc : PROCESS
     BEGIN
+        clk_tb <= '0';
         sel_b_tb <= '0';
         c_tb <= '1';
         mux_out_tb <= c_tb;
-        clk_tb <= '0';
+        clk_tb <= '1';
         D1_tb <= mux_out_tb;
         D2_tb <= Q1_tb;
         Q2_tb <= D2_tb;
+        clk_tb <= '0';
 
         sel_b_tb <= '1';
         d_tb <= '1';
@@ -59,15 +61,6 @@ BEGIN
         -- sel_b_tb <= '1';
         -- d_tb <= '0';
     END PROCESS mux_proc;
-
-    -- bascul_proc : PROCESS (clk_tb)
-    -- BEGIN
-    --     clk_tb <= '0';
-    --     D1_tb <= mux_out_tb;
-    --     D2_tb <= Q1_tb;
-    --     Q2_tb <= D2_tb;
-    --     clk_tb <= '1';
-    -- END PROCESS bascul_proc;
 END test;
 CONFIGURATION conf_exCircuit OF exCircuit_tb IS
     FOR test

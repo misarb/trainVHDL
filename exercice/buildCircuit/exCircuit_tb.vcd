@@ -1,0 +1,37 @@
+$date
+  Sat Oct  8 17:18:19 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module excircuit $end
+$var reg 1 ! sel_b $end
+$var reg 1 " c $end
+$var reg 1 # d $end
+$var reg 1 $ mux_out $end
+$var reg 1 % d1 $end
+$var reg 1 & d2 $end
+$var reg 1 ' q1 $end
+$var reg 1 ( q2 $end
+$var reg 1 ) clk $end
+$upscope $end
+$enddefinitions $end
+#0
+U!
+U"
+U#
+U$
+U%
+U&
+U'
+U(
+U)
