@@ -7,7 +7,7 @@ echo "************ VHDL RUNNER BY Boulbalah Lahcen ************ "
 if ghdl -a $1 ; then
     echo "analyse  succeeded"
     echo ==
-    # ghdl -r $2 --vcd=$3
+    ghdl -r $2 --vcd=$3
     # gtkwave $3
     
     
