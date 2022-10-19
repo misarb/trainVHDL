@@ -32,3 +32,4 @@ BEGIN
 END ARCHITECTURE;
 
 -- ghdl -s  conditionFile.vhdl  && ghdl -a  ConditionFile.vhdl && ghdl -r  whileFile
+-- test
