@@ -1,0 +1,209 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/misar/Desktop/trainVHDL/classWork/reg_4bit/simulation/modelsim
+Edlatchme
+Z1 w1667229617
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z5 8/home/misar/Desktop/trainVHDL/classWork/reg_4bit/dlatchme.vhd
+Z6 F/home/misar/Desktop/trainVHDL/classWork/reg_4bit/dlatchme.vhd
+l0
+L4 1
+VY:?F;2OWk<VQLEiV:RemM0
+!s100 PYf?l5W2Wg1GcZmYD3mzB1
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1667232019
+!i10b 1
+Z9 !s108 1667232019.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/misar/Desktop/trainVHDL/classWork/reg_4bit/dlatchme.vhd|
+Z11 !s107 /home/misar/Desktop/trainVHDL/classWork/reg_4bit/dlatchme.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+R4
+DEx4 work 8 dlatchme 0 22 Y:?F;2OWk<VQLEiV:RemM0
+!i122 2
+l13
+L11 10
+V`O@o8aOkYH;EgXNYWZjOE1
+!s100 E2OSJ>I]`;cGC<`YiFQNJ3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Egate
+Z14 w1667228030
+R2
+R3
+R4
+!i122 1
+R0
+Z15 8/home/misar/Desktop/trainVHDL/classWork/reg_4bit/gate.vhd
+Z16 F/home/misar/Desktop/trainVHDL/classWork/reg_4bit/gate.vhd
+l0
+L4 1
+V`>C6T0lSEH77O@3JFm@=_1
+!s100 5>d_<Gz<]^HSN;VM_6PWI2
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|/home/misar/Desktop/trainVHDL/classWork/reg_4bit/gate.vhd|
+Z18 !s107 /home/misar/Desktop/trainVHDL/classWork/reg_4bit/gate.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+DEx4 work 4 gate 0 22 `>C6T0lSEH77O@3JFm@=_1
+!i122 1
+l15
+L13 5
+V1J8?aWcKJ0`D^za]HTfR81
+!s100 AJCk1H3aUeBIPW0nUaa>j3
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Ereg_4bit
+Z19 w1667229372
+R2
+R3
+R4
+!i122 0
+R0
+Z20 8/home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit.vhd
+Z21 F/home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit.vhd
+l0
+L4 1
+VCmkC2<cTg_zEJ5TVEDhg`2
+!s100 R2@2<G]51A>Tzn;?_53@<3
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|/home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit.vhd|
+Z23 !s107 /home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+Z24 DEx4 work 8 reg_4bit 0 22 CmkC2<cTg_zEJ5TVEDhg`2
+!i122 0
+l35
+L13 30
+V@n]GIPk8Tn8Z6FoZ5=FKG3
+!s100 i^>eJ8NVFQ:Ubh@33T@1i0
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Creg_4bit_conf
+ereg_4bit_tb
+atest
+R2
+R24
+DAx4 work 11 reg_4bit_tb 4 test 22 MiekHdgI?81B25L53Je:00
+R3
+R4
+Z25 DEx4 work 11 reg_4bit_tb 0 22 iOPh=LKz:U@5EMz9mmYEU3
+!i122 3
+Z26 w1667231956
+R0
+Z27 8/home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit_tb.vhd
+Z28 F/home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit_tb.vhd
+l0
+L57 1
+V]R9Ma[X9C^mlTJozFXKcE0
+!s100 D9@U94;nUNT2Tn0<EAZ690
+R7
+31
+R8
+!i10b 1
+R9
+Z29 !s90 -reportprogress|300|-93|-work|work|/home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit_tb.vhd|
+!s107 /home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit_tb.vhd|
+!i113 1
+R12
+R13
+Ereg_4bit_tb
+R26
+R3
+R4
+!i122 3
+R0
+R27
+R28
+l0
+L3 1
+ViOPh=LKz:U@5EMz9mmYEU3
+!s100 ZUM^YfEWnTmT2=QBN@HDG0
+R7
+31
+R8
+!i10b 1
+R9
+R29
+Z30 !s107 /home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit_tb.vhd|
+!i113 1
+R12
+R13
+Atest
+R3
+R4
+R25
+!i122 3
+l21
+L6 51
+VMiekHdgI?81B25L53Je:00
+!s100 7B0f_=N;In:GD`A8GfU[j3
+R7
+31
+R8
+!i10b 1
+R9
+R29
+R30
+!i113 1
+R12
+R13

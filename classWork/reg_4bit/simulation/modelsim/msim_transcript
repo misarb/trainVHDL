@@ -1,0 +1,87 @@
+# do reg_4bit_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/misar/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:00:19 on Oct 31,2022
+# vcom -reportprogress 300 -93 -work work /home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity reg_4bit
+# -- Compiling architecture arch of reg_4bit
+# End time: 17:00:19 on Oct 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/misar/Desktop/trainVHDL/classWork/reg_4bit/gate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:00:19 on Oct 31,2022
+# vcom -reportprogress 300 -93 -work work /home/misar/Desktop/trainVHDL/classWork/reg_4bit/gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity gate
+# -- Compiling architecture arch of gate
+# End time: 17:00:19 on Oct 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/misar/Desktop/trainVHDL/classWork/reg_4bit/dlatchme.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:00:19 on Oct 31,2022
+# vcom -reportprogress 300 -93 -work work /home/misar/Desktop/trainVHDL/classWork/reg_4bit/dlatchme.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dlatchme
+# -- Compiling architecture arch of dlatchme
+# End time: 17:00:19 on Oct 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:00:19 on Oct 31,2022
+# vcom -reportprogress 300 -93 -work work /home/misar/Desktop/trainVHDL/classWork/reg_4bit/reg_4bit_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg_4bit_tb
+# -- Compiling architecture test of reg_4bit_tb
+# -- Compiling configuration reg_4bit_conf
+# -- Loading entity reg_4bit_tb
+# -- Loading architecture test of reg_4bit_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity reg_4bit
+# End time: 17:00:19 on Oct 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  reg_4bit_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" reg_4bit_tb 
+# Start time: 17:00:19 on Oct 31,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.reg_4bit_tb(test)
+# Loading ieee.numeric_std(body)
+# Loading work.reg_4bit(arch)
+# Loading work.gate(arch)
+# Loading work.dlatchme(arch)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 17:04:33 on Oct 31,2022, Elapsed time: 0:04:14
+# Errors: 0, Warnings: 0

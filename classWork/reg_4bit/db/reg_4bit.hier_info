@@ -1,0 +1,43 @@
+|reg_4bit
+d0 => dlatchme:bit0.d
+d1 => dlatchme:bit1.d
+d2 => dlatchme:bit2.d
+d3 => dlatchme:bit3.d
+clk => gate:and2.i2
+en => gate:and2.i1
+q0 << dlatchme:bit0.q
+q1 << dlatchme:bit1.q
+q2 << dlatchme:bit2.q
+q3 << dlatchme:bit3.q
+
+
+|reg_4bit|gate:and2
+i1 => z.IN0
+i2 => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_4bit|dlatchme:bit0
+d => q~reg0.DATAIN
+clck => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_4bit|dlatchme:bit1
+d => q~reg0.DATAIN
+clck => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_4bit|dlatchme:bit2
+d => q~reg0.DATAIN
+clck => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_4bit|dlatchme:bit3
+d => q~reg0.DATAIN
+clck => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

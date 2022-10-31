@@ -1,0 +1,17 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE iee.numeric_std.ALL;
+ENTITY gate IS
+
+    PORT (
+        i1 : IN STD_LOGIC;
+        i2 : IN STD_LOGIC;
+        z : OUT STD_LOGIC
+    );
+
+END ENTITY;
+ARCHITECTURE arch OF gate IS
+
+BEGIN
+    z <= i1 AND i2;
+END ARCHITECTURE arch;

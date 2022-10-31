@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "q0",
+					"strict" : false
+				},
+				{
+					"name" : "q1",
+					"strict" : false
+				},
+				{
+					"name" : "q2",
+					"strict" : false
+				},
+				{
+					"name" : "q3",
+					"strict" : false
+				},
+				{
+					"name" : "d0",
+					"strict" : false
+				},
+				{
+					"name" : "d1",
+					"strict" : false
+				},
+				{
+					"name" : "d2",
+					"strict" : false
+				},
+				{
+					"name" : "d3",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

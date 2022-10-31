@@ -1,0 +1,23 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE iee.numeric_std.ALL;
+ENTITY dlatch IS
+
+    PORT (
+        d : IN STD_LOGIC;
+        clk : IN STD_LOGIC;
+        q : OUT STD_LOGIC
+
+    );
+
+END ENTITY;
+ARCHITECTURE arch OF dlatch IS
+
+BEGIN
+    PROCESS IS
+    BEGIN
+        IF rising_edge(clk) THEN
+            q <= d;
+        END IF;
+    END PROCESS;
+END ARCHITECTURE arch;
