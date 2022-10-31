@@ -1,0 +1,254 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/misar/Desktop/trainVHDL/classWork/add/simulation/modelsim
+Eadd
+Z1 w1667218046
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8/home/misar/Desktop/trainVHDL/classWork/add/add.vhd
+Z6 F/home/misar/Desktop/trainVHDL/classWork/add/add.vhd
+l0
+L5 1
+V=cAc:RXk8ESAndC4MIZh20
+!s100 flmUz5R=Emc=[G7k?:ED20
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1667219568
+!i10b 1
+Z9 !s108 1667219568.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/misar/Desktop/trainVHDL/classWork/add/add.vhd|
+Z11 !s107 /home/misar/Desktop/trainVHDL/classWork/add/add.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+R4
+Z14 DEx4 work 3 add 0 22 =cAc:RXk8ESAndC4MIZh20
+!i122 0
+l44
+L13 45
+VSPhJzhzX`?fnFAB@LdBoS0
+!s100 6oWP;hAo`[^[Qjkczcc^60
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Cadd_config
+eadd_tb
+atest
+R14
+DAx4 work 6 add_tb 4 test 22 kUb<;2jG2W]g?Pef<eSdh3
+R2
+R3
+R4
+Z15 DEx4 work 6 add_tb 0 22 2i]:FI>zB3Fo2gKYfo<i?0
+!i122 4
+Z16 w1667219412
+R0
+Z17 8/home/misar/Desktop/trainVHDL/classWork/add/add_tb.vhd
+Z18 F/home/misar/Desktop/trainVHDL/classWork/add/add_tb.vhd
+l0
+L63 1
+Vh?S]k_ji=2j;5XQDUW<Ij2
+!s100 5PU3ZKJbJWWlQ0I6afB0R3
+R7
+31
+Z19 !s110 1667219569
+!i10b 1
+Z20 !s108 1667219569.000000
+Z21 !s90 -reportprogress|300|-93|-work|work|/home/misar/Desktop/trainVHDL/classWork/add/add_tb.vhd|
+!s107 /home/misar/Desktop/trainVHDL/classWork/add/add_tb.vhd|
+!i113 1
+R12
+R13
+Eadd_tb
+R16
+R2
+R3
+R4
+!i122 4
+R0
+R17
+R18
+l0
+L4 1
+V2i]:FI>zB3Fo2gKYfo<i?0
+!s100 ;?1SN^51gocG:W_TQZCck3
+R7
+31
+R19
+!i10b 1
+R20
+R21
+Z22 !s107 /home/misar/Desktop/trainVHDL/classWork/add/add_tb.vhd|
+!i113 1
+R12
+R13
+Atest
+R2
+R3
+R4
+R15
+!i122 4
+l17
+L8 54
+VkUb<;2jG2W]g?Pef<eSdh3
+!s100 A32:[QIB4:;5IMai?0dTM2
+R7
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13
+Eportet
+Z23 w1667219179
+R2
+R3
+R4
+!i122 2
+R0
+Z24 8/home/misar/Desktop/trainVHDL/classWork/add/portEt.vhd
+Z25 F/home/misar/Desktop/trainVHDL/classWork/add/portEt.vhd
+l0
+L5 1
+VikRYOGoV56g3l`:FVXYaT3
+!s100 hoKo?906T??Hjc_?1NA]d0
+R7
+31
+R19
+!i10b 1
+R9
+Z26 !s90 -reportprogress|300|-93|-work|work|/home/misar/Desktop/trainVHDL/classWork/add/portEt.vhd|
+Z27 !s107 /home/misar/Desktop/trainVHDL/classWork/add/portEt.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+DEx4 work 6 portet 0 22 ikRYOGoV56g3l`:FVXYaT3
+!i122 2
+l18
+Z28 L14 9
+Vz`94EEIIIY@T5UYA:]71=0
+!s100 LTMDZf_6Qo4B=zGebQIKP3
+R7
+31
+R19
+!i10b 1
+R9
+R26
+R27
+!i113 1
+R12
+R13
+Eportou
+Z29 w1667219171
+R2
+R3
+R4
+!i122 1
+R0
+Z30 8/home/misar/Desktop/trainVHDL/classWork/add/portOu.vhd
+Z31 F/home/misar/Desktop/trainVHDL/classWork/add/portOu.vhd
+l0
+L5 1
+Vc8HP0:bWd@23LHOfCfobS3
+!s100 ehkGPRH4PcE]=mASza7A=0
+R7
+31
+R8
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-93|-work|work|/home/misar/Desktop/trainVHDL/classWork/add/portOu.vhd|
+Z33 !s107 /home/misar/Desktop/trainVHDL/classWork/add/portOu.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+DEx4 work 6 portou 0 22 c8HP0:bWd@23LHOfCfobS3
+!i122 1
+l18
+R28
+VXAZZGRDFUQ=SIAcN>6:490
+!s100 Q@OXSE85hfi5N4UE>>XL>3
+R7
+31
+R8
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Eportxor
+Z34 w1667219222
+R2
+R3
+R4
+!i122 3
+R0
+Z35 8/home/misar/Desktop/trainVHDL/classWork/add/portXor.vhd
+Z36 F/home/misar/Desktop/trainVHDL/classWork/add/portXor.vhd
+l0
+L5 1
+V6lJMhIP=bHJZ3462c<8>b0
+!s100 QHhdTL[jY^8XBk0G@=]dS1
+R7
+31
+R19
+!i10b 1
+R20
+Z37 !s90 -reportprogress|300|-93|-work|work|/home/misar/Desktop/trainVHDL/classWork/add/portXor.vhd|
+Z38 !s107 /home/misar/Desktop/trainVHDL/classWork/add/portXor.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+DEx4 work 7 portxor 0 22 6lJMhIP=bHJZ3462c<8>b0
+!i122 3
+l18
+R28
+VVGL9<BSS^WgFCd1BC<06A0
+!s100 ]K3lbOMPe4e]0lY[0Ae671
+R7
+31
+R19
+!i10b 1
+R20
+R37
+R38
+!i113 1
+R12
+R13
